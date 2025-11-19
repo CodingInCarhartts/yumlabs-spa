@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-yum-900: #0a0a0a;
+  --color-yum-800: #171717;
+  --color-yum-700: #262626;
+  --color-yum-accent: #10b981;
+  --color-yum-secondary: #8b5cf6;
+  --font-family-mono: "JetBrains Mono", "Fira Code", monospace;
+  --font-family-sans: Inter, sans-serif;
+}
+
+:root {
+  background-color: #0a0a0a;
+  color: #ffffff;
+}
+
+/* Custom Scrollbar for that Linux feel */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border: 1px solid #10b981;
+}
